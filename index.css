@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: fit-content;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 0;
+    background-color: burlywood;
+    font-size: 3rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 800px;
+    height: 800px;
+}
+
+.grid-item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:violet;
+
+}
+.prompt{
+    position: absolute;
+    left: 0;
+    top: 0; 
+}
+.answer{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+#box1{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid gray;
+}
+#box2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#box3{
+    border-right: 1px solid gray;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#box4{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#box5{
+    border-right: 1px solid gray;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#box6{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+#box7{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+     
+}
+#box8{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#box9{
+    border-right: grey;
+
+}
+#box10{
+    border-top: 1px solid gray;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#box11{
+    border-top: 1px solid gray;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#box12{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+#box13{
+    border-right: 1px solid gray;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#box14{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+#box15{
+    border-right: 1px solid gray;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#box16{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
